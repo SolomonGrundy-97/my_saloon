@@ -1,0 +1,577 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header{
+    border-bottom: green double 5px;
+background-image: url(./imagesHOME2.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom center;
+}
+
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.top{
+    display: grid;
+}
+
+.topflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+gap: 2rem;
+
+}
+
+.blueboard{
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: 10px 10px 30px white;
+    border-radius: 5px;
+}
+
+.top2{
+display: grid;
+justify-content: space-around;
+align-items: center;
+}
+.topBG{
+    background-image: url(hair-salon-sign-with-scissors-and-design-elements-vector-1127624.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.tt{
+    display: grid;
+}
+
+.centertext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    font-size: x-large;
+    text-align: center;
+    color: dimgrey;
+    text-shadow: 2px 2px 25px black;
+
+}
+
+
+/*LINK STYLE*/
+
+
+
+a:hover{
+    color: coral;
+}
+a:active{
+    color: darkred;
+}
+a:visited{
+    color: blueviolet;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+.servy{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+    color: dimgrey;
+    text-shadow: 2px 2px 25px black;
+}
+
+.yoyo{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    color: darkcyan;
+}
+
+.blacky{
+    color: black;
+}
+.fs{
+ font-style: italic;
+    font-family: fantasy;
+}
+
+.firstbox, .secondbox, .thirdbox{
+    display: grid;
+background-color: dimgray;
+padding: 15px 15px;
+color: whitesmoke;
+box-shadow: 5px 5px 25px black;
+border-radius: 10px;
+text-shadow: 5px 3px 5px black;
+
+}
+
+
+.greendp{
+    color: lightslategray;
+    text-shadow: 1px 1px 2px white;
+}
+
+
+
+.viewservy{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.nn{
+display: flex;
+    gap: 4rem;
+}
+
+.pad-line{
+padding: 20px;
+background-color: cadetblue;
+}
+
+.no2{
+    color: aquamarine;
+}
+
+.reviews1, .reviews2, .reviews3, .reviews4{
+display: grid;
+background-color: burlywood;
+padding: 50px 30px;
+border:  solid darkolivegreen;
+border-radius: 15px;
+font-size: larger;
+font-style: italic;
+box-shadow: 5px 5px 50px white;
+text-shadow: 2px 2px 50px black;
+} 
+
+
+.people_opinion{
+
+    background-image: url(customer-reviews-bg.jpg);
+padding: 10px;
+
+}
+
+.Guest-Reviews{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: x-large;
+color: darkcyan;
+}
+
+.colour{
+    color: darkolivegreen;
+}
+
+.downtop-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+gap: 2rem;
+background: linear-gradient(gray, whitesmoke);
+padding: 25px;
+}
+
+.nn2{
+    display: grid;
+    text-align: center;
+}
+
+.down-location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: chocolate;
+    padding: 50px 0;
+}
+
+.lct-logo{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    font-style: italic;
+    font-family: fantasy;
+    color: darkcyan;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+
+/* HOME STYLES START...*/
+
+
+/* TOP CENTERED TEXT */
+
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 55px;
+    border: double chocolate 4px;
+    box-shadow: 5px 5px 3px yellowgreen;
+}
+
+
+.bg-responsive{
+    background-image: url(./imagesHOME2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+.witish-font{
+
+    font-style: italic;
+    font-size: xx-large;
+    color: blueviolet;
+}
+
+.pp{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: larger;
+}
+.centerhaed{
+    display: grid;
+    gap: 2rem;
+    color: aliceblue;
+}
+
+/* MIDDLE PICS & TEXT STYLES */
+
+.vv{
+    width: 50%;
+   
+}
+
+.texty{
+    font-size: x-large;
+    margin-top: 6rem;
+    color: lightslategray;
+}
+
+.dim{
+    color: rgb(73, 9, 133);
+}
+
+.italice{
+    font-style: italic;
+}
+
+.pics-text{
+    display: flex;
+gap: 4rem;
+}
+
+
+
+
+
+/* THE MIDDLE TEXT & PICTURE */
+
+.ui{
+    font-size: x-large;
+ margin-left: 5rem;
+ margin-top: 6rem;
+    color: lightslategray;
+}
+
+.vv2{
+    width: 50%;
+    margin-top: 1rem;
+    
+}
+
+
+/* HOME STYLES END....*/
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+
+/* ABOUT STYLES */
+
+/*TOP STYLE*/
+
+
+
+/*CUSTOMER SATISFSCTION*/
+
+.ashdash{
+    background: radial-gradient(gray, red, white);
+    padding: 70px;
+    font-size: large;
+    text-align: center;
+}
+
+.swag-text {
+    font-style: italic;
+}
+
+.swag-text2{
+    border-bottom: solid;
+    border-top: solid;
+}
+
+
+/*THE AMBIENCE*/
+
+.ashdash2{
+    background-color: darkslategray;
+    padding: 70px;
+    font-size: large;
+    text-align: center;
+}
+
+
+/*THE CONNECTIONS*/
+
+.ashdash3{
+background-color: hotpink;
+    padding: 70px;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+/*THE STYLE*/
+
+.ashdash4{
+   background: linear-gradient(orange, pink, orange);
+    padding: 70px;
+    font-size: large;
+    text-align: center;
+}
+
+
+/*THE ENLIGHTMENT*/
+
+.ashdash5{
+    background-color: chartreuse;
+    padding: 70px;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+/*CAREER STYLES*/
+
+/*TOP FLEX*/
+
+.career{
+    background-color: crimson;
+    padding: 60px;
+}
+
+
+/*MIDDLE STYLES*/
+
+.career-center-text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 5px 3px 6px black;
+}
+
+
+.flexinput1{
+    display: grid;
+}
+
+.flexinput2{
+    display: grid;
+}
+
+.flexinput3, .button{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input-Label{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 3rem;
+background-color: darkgrey;
+opacity: 28%;
+padding: 70px;
+}
+
+input{
+    padding: 8px 55px;
+    background-color: darksalmon;
+    box-shadow: 3px 3px 7px black;
+}
+
+
+button{
+padding: 7px 25px;
+    background-color: darkgreen;
+    color: aqua;
+    border-radius: 4px;
+    
+}
+
+
+/*CONTACTS STYLES*/
+
+/*TOP FLEX STYLE*/
+
+.contact{
+    background-image: url(/d3c2c3d6b1be4318b0ca9e6067bbecb4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+    opacity: 45%;
+}
+
+.TT{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+
+
+/*SALON POLICIES*/
+
+/*TOP_FLEX
+
+
+
+
+
+
+
+/*MAIN DESIGN*/
+
+
+.salonpTop{
+    display: flex;
+    text-decoration: underline 2px greenyellow;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+
+
+
+.body1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    font-size: large;
+    background-color: black;
+    color: cornsilk ;
+    padding-top: 1rem;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.under1{
+    margin-left: 1.5rem;
+    background: -webkit-repeating-radial-gradient(yellow, red, blue);
+    background-clip: text;
+    margin-right: 80rem;
+    padding-left: 1rem;
+    color: bisque;
+}
+
+.under2{
+    text-decoration: underline;
+}
+
+.Policy{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/*GALLERY STYLES*/
+
+.loggy{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+
+.galla{
+    background-color: cadetblue;
+}
+
+
+.imagery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: normal;
+    justify-content: space-around;
+   
+}
+
+
+.sizzy{
+height: 50vh;
+width: 30%;
+box-shadow: 8px 5px 30px black;
+border-radius: 5px;
+}
+
+
+
+
